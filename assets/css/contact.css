@@ -4,11 +4,11 @@
 }
 
 body{
-    background-image: url(pexels-monstera-6621189.jpg);
+    background-image: url(../images/pexels-ylanite-koppens-796602.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
 }
 
 header {
@@ -40,13 +40,15 @@ a:hover {
 .container{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     justify-content: center;
+    height: 50vh;
     position: relative;
+    left: 20rem;
 }
 
 h1 {
-    margin: 30px;
+    margin: 80px;
     font-size: 3rem;
     color: orange;
     padding: 0 1rem;
@@ -55,12 +57,13 @@ h1 {
 }
 
 h3 {
-    color:rebeccapurple;
-    font-size: 1.6rem;
+    color:rgb(56, 24, 89);
+    font-size: 2rem;
+    font-weight: 30px;
     font-family: cursive; 
 }
 
-h3:hover {
+h3:hover{
     background-color: white;
 }
 
